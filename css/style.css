@@ -714,7 +714,7 @@ footer{
         padding: 0 20px;
     }
     .ptable-item{
-        width: 334px;
+        width: 378px;
     }
     .money > ul{
         flex-wrap: wrap;
@@ -733,7 +733,7 @@ footer{
         width: 300px;
     }
     .video li{
-        width: 48%;
+        width: 46%;
     }
     #menu-mobile{
         display: none;
@@ -761,7 +761,7 @@ footer{
     .nav-menu{
         background: #fff;
         padding: 20px;
-        height: 600px;
+        height: 480px;
     }
     #close{
         font-size: 30px;
@@ -849,16 +849,21 @@ footer{
         font-size: 24px;
     }
     .call-girl-card{
-        width: 164px;
+        width: 100%;
+        margin-top: 0;
     }
     .call-girl li:last-child{
         display: none;
+    }
+    .price-detail{
+        margin-top: 60px;
     }
     .choose-us h2 {
         font-size: 24px;
     }
     .option-detail{
         flex-direction: column-reverse;
+        margin-top: 30px;
     }
     .option{
         width: 100%;
@@ -868,7 +873,7 @@ footer{
         width: 100%;
     }
     .option-right img{
-        height: 238px;
+        height: 200px;
     }
     #flip span, #flip-two span, #flip-three span, #flip-four span, #flip-five span {
         font-size: 18px;
@@ -892,8 +897,8 @@ footer{
         margin-top: 50px;
     }
     .call-girl li {
-        width: 160px;
-        margin-top: 60px;
+        width: 45%;
+        margin-top: 30px;
     }
     .call-girl ul {
         flex-wrap: wrap;
@@ -921,5 +926,11 @@ footer{
     }
     .slider-card-detail-two {
         bottom: 16px;
+    }
+    .location ul li{
+        width: 45%;
+    }
+    .location-card h2{
+        font-size: 15px;
     }
 }
