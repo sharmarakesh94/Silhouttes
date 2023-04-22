@@ -714,7 +714,7 @@ footer{
         padding: 0 20px;
     }
     .ptable-item{
-        width: 378px;
+        width: 100%;
     }
     .money > ul{
         flex-wrap: wrap;
@@ -932,5 +932,8 @@ footer{
     }
     .location-card h2{
         font-size: 15px;
+    }
+    .money > ul > li{
+        width: 100%;
     }
 }
