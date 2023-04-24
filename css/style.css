@@ -841,11 +841,25 @@ footer{
         display: none;
     }
     .profile-card{
-        width: 72%;
+        width: 80%;
+    }
+    .profile{
+        flex-direction: column;
+    }
+    .profile-images{
+        width: 100%;
+    }
+    .profile-profile{
+        width: 100%;
+    }
+    .profile-images img{
+        width: 47%;
+        margin-top: 20px;
     }
     .languages-profile{
         flex-direction: column;
         align-items: inherit;
+        width: 66%;
     }
     .languages{
         width: 100%;
