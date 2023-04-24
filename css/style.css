@@ -712,6 +712,18 @@ footer{
 .profile{
     margin-top: 60px;
     color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.profile-images{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.profile-profile{
+    width: 54%;
 }
 .profile-number a{
     font-size: 20px;
@@ -725,7 +737,6 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 60%;
 }
 .profile-number{
     font-size: 20px;
@@ -745,7 +756,7 @@ footer{
 }
 .languages{
     margin-top: 50px;
-    width: 40%;
+    width: 34%;
 }
 .languages-card{
     display: flex;
@@ -763,7 +774,10 @@ footer{
 .profile-card{
     display: flex;
     justify-content: space-between;
-    width: 22%;
+    width: 50%;
+}
+.overlay-mobile{
+    display: none;
 }
 @media screen and (max-width: 767px) {
     .container{
