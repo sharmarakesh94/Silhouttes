@@ -108,6 +108,7 @@ nav > ul{
 }
 .slider-right{
     width: 49%;
+    z-index: 999;
 }
 
 
