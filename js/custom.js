@@ -28,7 +28,7 @@ $(document).ready(function(){
       slidesToShow: 5,
       slidesToScroll: 2,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 1500,
       arrows: false,
       dots: false,
 
