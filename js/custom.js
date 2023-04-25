@@ -24,4 +24,13 @@ $(document).ready(function(){
       $("body").css('overflow', 'auto');
         $("body").removeClass();
     });
+    $('.call-girl ul').slick({
+      slidesToShow: 5,
+      slidesToScroll: 2,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      arrows: false,
+      dots: false,
+
+  });
   });

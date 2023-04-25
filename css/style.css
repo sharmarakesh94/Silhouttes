@@ -338,9 +338,6 @@ nav > ul{
     margin-top: 100px;
     color: #fff;
 }
-.call-girl-card:hover{
-    margin-top: -0px;
-}
 .call-girl-card img{
     border-radius: 20px 20px 0 0;
     display: block;
@@ -534,10 +531,6 @@ footer{
     position: absolute;
     left: 20px;
     bottom: 40px;
-}
-.call-girl ul{
-    display: flex;
-    align-items: center;
 }
 .slider-card-detail h2{
     font-size: 20px;
@@ -1030,5 +1023,8 @@ footer{
     }
     .money > ul > li{
         width: 100%;
+    }
+    .call-girl-text{
+        display: none;
     }
 }
